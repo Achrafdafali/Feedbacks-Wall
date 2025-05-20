@@ -24,17 +24,16 @@ cd Feedbacks-Wall
 ```
 Install dependencies:
 
-bash
-Copy
-Edit
+
 npm install express body-parser ejs
+
 Run the server:
 
-bash
-Copy
-Edit
+
 node index.js
+
 Open your browser and go to:
+
 http://localhost:3000
 
 Let me know if you want to include:
