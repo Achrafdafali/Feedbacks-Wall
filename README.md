@@ -1,45 +1,48 @@
-🧱 Feedbacks Wall  
+# 💬 Feedbacks Wall
 
+A simple feedback wall application built with **Node.js**, **Express**, and **EJS**.  
+Users can submit feedback and view all entries on the same page.
 
-A simple feedback wall application built with Node.js, Express, and EJS.  
-Users can submit and view feedback in a clean, single-page layout.
+## 🚀 Features
 
-🚀 Features  
-- Submit feedback through a simple form  
-- Display feedback instantly on the same page  
-- Dynamic rendering using EJS templates  
-- Clean and responsive UI with HTML & CSS  
+- Submit new feedback through a form  
+- Display feedback entries in real-time  
+- Server-side rendering with EJS templates  
+- Clean and minimal UI with HTML & CSS  
 
-🛠 Technologies & Dependencies  
+## 🛠 Technologies & Dependencies
+
 This project uses the following Node.js dependencies:
 
-- express – Web framework  
-- body-parser – Middleware for parsing form data  
-- ejs – Template engine  
+- `express` – Web framework  
+- `body-parser` – Middleware for parsing form data  
+- `ejs` – Template engine  
 
-📦 Installation  
+## 📦 Installation
 
-Clone the repository:
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/Achrafdafali/Feedbacks-Wall.git
 cd Feedbacks-Wall
-```
 Install dependencies:
 
-
+bash
+Copy
+Edit
 npm install express body-parser ejs
-
 Run the server:
 
-
+bash
+Copy
+Edit
 node index.js
+Open your browser and go to: http://localhost:3000
 
-Open your browser and go to:
+yaml
+Copy
+Edit
 
-http://localhost:3000
+---
 
-Let me know if you want to include:
-
-A screenshot
-
-Deployment instructions (e.g., for Render or Vercel)
+Let me know if you'd like help adding a screenshot, a data storage method (e.g., file or database), or 
