@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+
+<section class="container">
+  <form action="/submit" method="POST" class="feedback-form">
+    <textarea name="message" placeholder="Write your feedback here..." required maxlength="250"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="feedback-list">
+    <% if (feedbacks.length === 0) { %>
+      <p class="no-feedback">No feedback yet. Be the first to share!</p>
+    <% } else { %>
+      <% feedbacks.forEach((fb, index) => { %>
+        <div class="feedback">
+          <p><%= fb.text %></p>
+          <small><%= index+1 %></small>
+          <form action="/delete/<%= index %>" method="POST" class="delete-form">
+            <button type="submit">Delete</button>
+          </form>
+        </div>
+      <% }) %>
+    <% } %>
+  </div>
+</section>
+
+<%- include("partials/footer") %>
