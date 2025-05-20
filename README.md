@@ -25,24 +25,19 @@ This project uses the following Node.js dependencies:
 ```bash
 git clone https://github.com/Achrafdafali/Feedbacks-Wall.git
 cd Feedbacks-Wall
+```
 Install dependencies:
 
-bash
-Copy
-Edit
+```
 npm install express body-parser ejs
+```
 Run the server:
-
-bash
-Copy
-Edit
+```
 node index.js
-Open your browser and go to: http://localhost:3000
-
-yaml
-Copy
-Edit
+```
+Open your browser and go to: 
+```
+http://localhost:3000
+```
 
 ---
-
-Let me know if you'd like help adding a screenshot, a data storage method (e.g., file or database), or 
